@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Calvary Chapel</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    
+    <string name="welcome">Welcome to Calvary Corvallis!</string>
+    <string name="bulletins">This Week\'s Bulletin</string>
+    <string name="events">Events</string>
+    <string name="eventInfo">Event Information</string>
+    <string name="donations">Donations</string>
+    <string name="messages">Messages</string>
+
+    <string name="previous">Previous</string>
+    <string name="next">\u2B62</string>
+    <string name="month">Month</string>
+
+    <string name="eventLabel">Event Name:</string>
+    <string name="dateLabel">Date:</string>
+    <string name="startLabel">Start Time:</string>
+    <string name="endLabel">End Time:</string>
+    <string name="locationLabel">Location:</string>
+    <string name="groupLabel">Group Name:</string>
+    <string name="leaderLabel">Leader Name:</string>
+    <string name="phoneLabel">Leader Phone:</string>
+    <string name="emailLabel">Leader Email:</string>
+
+    <string name="welcomeMessage">Check out our most current teachings, see what is happening at Calvary Corvallis this week and in weeks to come, give, or find a place to connect with other believers in the church!</string>
+
+</resources>

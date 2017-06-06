@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-45dp"
+        android:src="@drawable/calvary"/>
+    <TextView
+        android:text="@string/events"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:id="@+id/textView2"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/header"/>
+
+
+    <TextView
+        android:text="@string/month"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="110dp"
+        android:id="@+id/month"
+        android:textSize="15sp"
+        android:textStyle="italic"/>
+
+    <ImageView
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:src="@drawable/back"
+        android:layout_marginTop="12dp"
+        android:layout_toLeftOf="@id/month"
+        android:layout_below="@+id/textView2"
+        android:layout_marginRight="5dp"
+        android:id="@+id/arrowBack"/>
+
+    <ImageView
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:src="@drawable/forward"
+        android:layout_toRightOf="@id/month"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="12dp"
+        android:layout_marginLeft="5dp"
+        android:id="@+id/arrowForward"/>
+
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="125dp"/>
+</RelativeLayout>

@@ -1,0 +1,469 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A44E36C1E26A86D0066E65C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A44E36B1E26A86D0066E65C /* AppDelegate.swift */; };
+		0A44E36E1E26A86D0066E65C /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A44E36D1E26A86D0066E65C /* FirstViewController.swift */; };
+		0A44E3701E26A86D0066E65C /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A44E36F1E26A86D0066E65C /* SecondViewController.swift */; };
+		0A44E3731E26A86D0066E65C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A44E3711E26A86D0066E65C /* Main.storyboard */; };
+		0A44E3751E26A86D0066E65C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A44E3741E26A86D0066E65C /* Assets.xcassets */; };
+		0A44E3781E26A86D0066E65C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A44E3761E26A86D0066E65C /* LaunchScreen.storyboard */; };
+		0A44E3831E26A86D0066E65C /* Calvary_ChapelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A44E3821E26A86D0066E65C /* Calvary_ChapelTests.swift */; };
+		0A44E38E1E26AC290066E65C /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A44E38D1E26AC290066E65C /* ThirdViewController.swift */; };
+		0A44E3901E26AC680066E65C /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A44E38F1E26AC680066E65C /* FourthViewController.swift */; };
+		0A44E3921E26AC7D0066E65C /* FifthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A44E3911E26AC7D0066E65C /* FifthViewController.swift */; };
+		0AB79EC81E412B1000A2ADC2 /* EventsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB79EC71E412B1000A2ADC2 /* EventsTableViewCell.swift */; };
+		0AC6328E1EB292520073C46A /* EventDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC6328D1EB292520073C46A /* EventDetailViewController.swift */; };
+		0AD02A7E1EAE69C7007BBA6E /* calvarystyle.css in Resources */ = {isa = PBXBuildFile; fileRef = 0AD02A7D1EAE69C7007BBA6E /* calvarystyle.css */; };
+		0AE09C171E57865C00F00D31 /* EventsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE09C161E57865C00F00D31 /* EventsTableViewController.swift */; };
+		503AA6CF1E80ECB000F67D82 /* donateHTML.html in Resources */ = {isa = PBXBuildFile; fileRef = 503AA6CE1E80ECB000F67D82 /* donateHTML.html */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0A44E37F1E26A86D0066E65C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A44E3601E26A86D0066E65C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A44E3671E26A86D0066E65C;
+			remoteInfo = "Calvary Chapel";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A44E3681E26A86D0066E65C /* Calvary Chapel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Calvary Chapel.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A44E36B1E26A86D0066E65C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0A44E36D1E26A86D0066E65C /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		0A44E36F1E26A86D0066E65C /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		0A44E3721E26A86D0066E65C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0A44E3741E26A86D0066E65C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0A44E3771E26A86D0066E65C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0A44E3791E26A86D0066E65C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A44E37E1E26A86D0066E65C /* Calvary ChapelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Calvary ChapelTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A44E3821E26A86D0066E65C /* Calvary_ChapelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calvary_ChapelTests.swift; sourceTree = "<group>"; };
+		0A44E3841E26A86D0066E65C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A44E38D1E26AC290066E65C /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		0A44E38F1E26AC680066E65C /* FourthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
+		0A44E3911E26AC7D0066E65C /* FifthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FifthViewController.swift; sourceTree = "<group>"; };
+		0AB79EC71E412B1000A2ADC2 /* EventsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventsTableViewCell.swift; sourceTree = "<group>"; };
+		0AC6328D1EB292520073C46A /* EventDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventDetailViewController.swift; sourceTree = "<group>"; };
+		0AD02A7D1EAE69C7007BBA6E /* calvarystyle.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = calvarystyle.css; sourceTree = "<group>"; };
+		0AE09C161E57865C00F00D31 /* EventsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventsTableViewController.swift; sourceTree = "<group>"; };
+		503AA6CE1E80ECB000F67D82 /* donateHTML.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = donateHTML.html; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A44E3651E26A86D0066E65C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A44E37B1E26A86D0066E65C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A44E35F1E26A86D0066E65C = {
+			isa = PBXGroup;
+			children = (
+				0A44E36A1E26A86D0066E65C /* Calvary Chapel */,
+				0A44E3811E26A86D0066E65C /* Calvary ChapelTests */,
+				0A44E3691E26A86D0066E65C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0A44E3691E26A86D0066E65C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A44E3681E26A86D0066E65C /* Calvary Chapel.app */,
+				0A44E37E1E26A86D0066E65C /* Calvary ChapelTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0A44E36A1E26A86D0066E65C /* Calvary Chapel */ = {
+			isa = PBXGroup;
+			children = (
+				0A44E36B1E26A86D0066E65C /* AppDelegate.swift */,
+				0A44E36D1E26A86D0066E65C /* FirstViewController.swift */,
+				0A44E36F1E26A86D0066E65C /* SecondViewController.swift */,
+				0A44E38D1E26AC290066E65C /* ThirdViewController.swift */,
+				0A44E38F1E26AC680066E65C /* FourthViewController.swift */,
+				0A44E3911E26AC7D0066E65C /* FifthViewController.swift */,
+				0A44E3711E26A86D0066E65C /* Main.storyboard */,
+				0AE09C161E57865C00F00D31 /* EventsTableViewController.swift */,
+				0AB79EC71E412B1000A2ADC2 /* EventsTableViewCell.swift */,
+				0AC6328D1EB292520073C46A /* EventDetailViewController.swift */,
+				0A44E3741E26A86D0066E65C /* Assets.xcassets */,
+				0A44E3761E26A86D0066E65C /* LaunchScreen.storyboard */,
+				0A44E3791E26A86D0066E65C /* Info.plist */,
+				0AD02A7D1EAE69C7007BBA6E /* calvarystyle.css */,
+				503AA6CE1E80ECB000F67D82 /* donateHTML.html */,
+			);
+			path = "Calvary Chapel";
+			sourceTree = "<group>";
+		};
+		0A44E3811E26A86D0066E65C /* Calvary ChapelTests */ = {
+			isa = PBXGroup;
+			children = (
+				0A44E3821E26A86D0066E65C /* Calvary_ChapelTests.swift */,
+				0A44E3841E26A86D0066E65C /* Info.plist */,
+			);
+			path = "Calvary ChapelTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0A44E3671E26A86D0066E65C /* Calvary Chapel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A44E3871E26A86D0066E65C /* Build configuration list for PBXNativeTarget "Calvary Chapel" */;
+			buildPhases = (
+				0A44E3641E26A86D0066E65C /* Sources */,
+				0A44E3651E26A86D0066E65C /* Frameworks */,
+				0A44E3661E26A86D0066E65C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Calvary Chapel";
+			productName = "Calvary Chapel";
+			productReference = 0A44E3681E26A86D0066E65C /* Calvary Chapel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0A44E37D1E26A86D0066E65C /* Calvary ChapelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A44E38A1E26A86D0066E65C /* Build configuration list for PBXNativeTarget "Calvary ChapelTests" */;
+			buildPhases = (
+				0A44E37A1E26A86D0066E65C /* Sources */,
+				0A44E37B1E26A86D0066E65C /* Frameworks */,
+				0A44E37C1E26A86D0066E65C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A44E3801E26A86D0066E65C /* PBXTargetDependency */,
+			);
+			name = "Calvary ChapelTests";
+			productName = "Calvary ChapelTests";
+			productReference = 0A44E37E1E26A86D0066E65C /* Calvary ChapelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0A44E3601E26A86D0066E65C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Capstone Group 62";
+				TargetAttributes = {
+					0A44E3671E26A86D0066E65C = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 9TJ49M5252;
+						ProvisioningStyle = Automatic;
+					};
+					0A44E37D1E26A86D0066E65C = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = SG9F2QBA8C;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0A44E3671E26A86D0066E65C;
+					};
+				};
+			};
+			buildConfigurationList = 0A44E3631E26A86D0066E65C /* Build configuration list for PBXProject "Calvary Chapel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0A44E35F1E26A86D0066E65C;
+			productRefGroup = 0A44E3691E26A86D0066E65C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0A44E3671E26A86D0066E65C /* Calvary Chapel */,
+				0A44E37D1E26A86D0066E65C /* Calvary ChapelTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0A44E3661E26A86D0066E65C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				503AA6CF1E80ECB000F67D82 /* donateHTML.html in Resources */,
+				0A44E3781E26A86D0066E65C /* LaunchScreen.storyboard in Resources */,
+				0A44E3751E26A86D0066E65C /* Assets.xcassets in Resources */,
+				0AD02A7E1EAE69C7007BBA6E /* calvarystyle.css in Resources */,
+				0A44E3731E26A86D0066E65C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A44E37C1E26A86D0066E65C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A44E3641E26A86D0066E65C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A44E3921E26AC7D0066E65C /* FifthViewController.swift in Sources */,
+				0AE09C171E57865C00F00D31 /* EventsTableViewController.swift in Sources */,
+				0AB79EC81E412B1000A2ADC2 /* EventsTableViewCell.swift in Sources */,
+				0A44E3701E26A86D0066E65C /* SecondViewController.swift in Sources */,
+				0A44E36C1E26A86D0066E65C /* AppDelegate.swift in Sources */,
+				0AC6328E1EB292520073C46A /* EventDetailViewController.swift in Sources */,
+				0A44E38E1E26AC290066E65C /* ThirdViewController.swift in Sources */,
+				0A44E36E1E26A86D0066E65C /* FirstViewController.swift in Sources */,
+				0A44E3901E26AC680066E65C /* FourthViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A44E37A1E26A86D0066E65C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A44E3831E26A86D0066E65C /* Calvary_ChapelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0A44E3801E26A86D0066E65C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A44E3671E26A86D0066E65C /* Calvary Chapel */;
+			targetProxy = 0A44E37F1E26A86D0066E65C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0A44E3711E26A86D0066E65C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A44E3721E26A86D0066E65C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0A44E3761E26A86D0066E65C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A44E3771E26A86D0066E65C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0A44E3851E26A86D0066E65C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0A44E3861E26A86D0066E65C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0A44E3881E26A86D0066E65C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 9TJ49M5252;
+				INFOPLIST_FILE = "Calvary Chapel/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Calvary-Chapel";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		0A44E3891E26A86D0066E65C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 9TJ49M5252;
+				INFOPLIST_FILE = "Calvary Chapel/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Calvary-Chapel";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		0A44E38B1E26A86D0066E65C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = SG9F2QBA8C;
+				INFOPLIST_FILE = "Calvary ChapelTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Calvary-ChapelTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Calvary Chapel.app/Calvary Chapel";
+			};
+			name = Debug;
+		};
+		0A44E38C1E26A86D0066E65C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = SG9F2QBA8C;
+				INFOPLIST_FILE = "Calvary ChapelTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Calvary-ChapelTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Calvary Chapel.app/Calvary Chapel";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A44E3631E26A86D0066E65C /* Build configuration list for PBXProject "Calvary Chapel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A44E3851E26A86D0066E65C /* Debug */,
+				0A44E3861E26A86D0066E65C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A44E3871E26A86D0066E65C /* Build configuration list for PBXNativeTarget "Calvary Chapel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A44E3881E26A86D0066E65C /* Debug */,
+				0A44E3891E26A86D0066E65C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A44E38A1E26A86D0066E65C /* Build configuration list for PBXNativeTarget "Calvary ChapelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A44E38B1E26A86D0066E65C /* Debug */,
+				0A44E38C1E26A86D0066E65C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0A44E3601E26A86D0066E65C /* Project object */;
+}
